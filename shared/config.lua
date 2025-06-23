@@ -8,6 +8,14 @@ Config.Notification = 'ox'--'qb' or 'ox'
 Config.Progressbar = 'ox' --'qb' or 'ox'
 Config.menu = 'ox' --'qb' or 'ox'
 
+Config.Reword = {
+    one = 'XXXXXX',
+    two = 'XXXXXX',
+    three = 'XXXXXX',
+    four = 'XXXXXX',
+    five = 'XXXXXX'
+}
+
 AddEventHandler("onResourceStart", fuction()
     Wait(2000)
     if GetResourceState('ox_inventory') == 'started' then
