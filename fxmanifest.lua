@@ -1,13 +1,17 @@
-fx_version 'cerulen'
+fx_version 'cerulean'
 game 'gta5'
 
 author 'Null'
+description 'Null - Trucking Job'
 version '0.0.0'
+lua54 'yes'
 
-client_script = {
-  client.lua
+shared_scripts {
+    'shared/config.lua',
 }
-
-server_script = {
-  server.lua
+client_scripts {
+    'client/*.lua',
+}
+server_scripts {
+    'server/*.lua',
 }
